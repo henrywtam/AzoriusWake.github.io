@@ -1,0 +1,41 @@
+html              {
+  font-family: Times;
+  background-color: .C6E2FF;
+}
+.header           {
+  font-size: 36px;
+}
+.profilePic       {
+  width: 200px;
+  height: 200px;
+  float: right;
+  display: block;
+}
+.occupation       {
+  font-size: 20px;
+}
+.navButton        {
+  font-size: 14px;
+  display: inline-block;
+}
+#line             {
+  border: 1px solid black;
+}
+.shareButton      {
+  width: 40px;
+  height: 40px;
+  float: right;
+  display:block;
+}
+.blogTitle        {
+  font-size: 24px;
+}
+.blogEntry        {
+  font-size: 14px;
+}
+.topWebsite       {
+  font-size: 20px;
+}
+.topWebsiteReason {
+
+}
