@@ -1,18 +1,21 @@
 html              {
   font-family: Times;
-  background-color: .C6E2FF;
+  background-color: #C6E2FF;
 }
 .header           {
   font-size: 36px;
+  font-weight:bold;
+  display: inline-block;
 }
 .profilePic       {
   width: 200px;
   height: 200px;
   float: right;
-  display: block;
+  display: inline-block;
 }
 .occupation       {
   font-size: 20px;
+  display: inline-block;
 }
 .navButton        {
   font-size: 14px;
@@ -20,22 +23,24 @@ html              {
 }
 #line             {
   border: 1px solid black;
+  display: block;
 }
 .shareButton      {
   width: 40px;
   height: 40px;
   float: right;
-  display:block;
+  display: block;
 }
 .blogTitle        {
   font-size: 24px;
+  font-weight:bold;
 }
 .blogEntry        {
-  font-size: 14px;
+
 }
 .topWebsite       {
   font-size: 20px;
 }
 .topWebsiteReason {
-
+  font-size: 14px;
 }
