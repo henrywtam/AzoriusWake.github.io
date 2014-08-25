@@ -29,7 +29,7 @@ navBar{
   display: inline-block;
 }
 left-bar{
-  width: 240px;
+  width: 230px;
   height: auto;
   float: left;
   /*border: 1px dotted red;*/
@@ -70,11 +70,12 @@ socialBar{
   text-decoration: underline;
 }
 right-bar{
-  width: 700px;
+  width: 600px;
   height: auto;
   float: right;
   /*border: 1px dotted green;*/
   display: inline-block;
+  padding: 20px 45px;
 }
 content{
 
