@@ -40,17 +40,17 @@ profile{
 }
 #profilePic{
   height: 150px;
-  widows: 150px;
+  width: 150px;
   border: 2px solid black;
-  margin: 5px;
+  margin: 20px 20px 10px 20px;
 }
 profile div{
-  margin: 5px;
+  margin: 5px 5px 5px 20px;
 }
 socialBar{
   font-size: 14px;
   display: inline-block;
-  margin: 0px 10px;
+  margin: 0px 25px;
 }
 #socialHeader{
   font-size: 20px;
@@ -62,11 +62,11 @@ socialBar{
 }
 .blogLinks{
   font-size: 14px;
-  margin-left: -10px;
+  margin-left: 6px;
 }
 #blogHeader{
   font-size: 20px;
-  margin-left: 10px;
+  margin-left: 28px;
   text-decoration: underline;
 }
 right-bar{
