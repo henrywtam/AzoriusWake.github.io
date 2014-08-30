@@ -1,0 +1,80 @@
+<!DOCTYPE.html>
+<html>
+  <head>
+    <title>Henry's Blog</title>
+    <link rel="stylesheet" type="text/css" href="blog-stylesheet.css">
+  </head>
+  <body>
+    <wrapper>
+      <top>
+        <navBar>
+          <a href="AboutMe.html">
+            <div class="navButton">
+              About Me
+            </div>
+          </a>
+          <a href="blog-posts.html">
+            <div class="navButton">
+              Blog
+            </div>
+          </a>
+          <a href="Projects.html">
+            <div class="navButton">
+              Projects
+            </div>
+          </a>
+          <a href="Contact.html">
+            <div class="navButton">
+              Contact
+            </div>
+          </a>
+        <navBar>
+      </top>
+      <bottom>
+        <left-bar>
+          <profile>
+            <img id="profilePic" src="https://avatars3.githubusercontent.com/u/7097569?v=2&s=460" />
+            <p></p>
+            <div>Name: Henry Tam</div>
+            <div>Occupation: DBC Student</div>
+            <div>City: San Francisco</div>
+          </profile>
+          <p></p>
+          <socialBar>
+            <div id="socialHeader">Social Links</div>
+            <p></p>
+            <div><a class="shareButton" href="https://www.linkedin.com/in/henrywtam"><img class="shareButton" src="http://buttonshut.com/links/linkedin.png"> LinkedIn</a></div>
+            <div><a class="shareButton" href="https://www.facebook.com/hahahenry"><img class="shareButton" src="http://buttonshut.com/links/facebook.png"> Facebook</a></div>
+            <div><a class="shareButton" href="https://plus.google.com/118226440472442077972/posts"><img class="shareButton" src="http://www.buttonshut.com/Google+-Buttons/Google+-Buttons-7-70-.png"> Google+</a></div>
+            <div><a class="shareButton" href="https://twitter.com/AzoriusWake"><img class="shareButton" src="http://buttonshut.com/links/twitter.png"> Twitter</a></div>
+            <div><a class="shareButton" href="https://github.com/AzoriusWake"><img class="shareButton" src="http://uxrepo.com/static/icon-sets/elusive/svg/github.svg"> GitHub</a></div>
+          </socialBar>
+          <p></p>
+          <blogLinks>
+            <div id="blogHeader">Blog Links</div>
+            <ul class="blogLinks">
+              <li><a href="t1-compare-websites.html">Compare Websites</a></li>
+              <li><a href="c1-chefs-kitchen.html">Kitchen vs Table</a></li>
+              <li><a href="DBCRAFP.html">DBCRAFP</a></li>
+            </ul>
+          </blogLinks>
+        </left-bar>
+        <right-bar>
+          <content>
+            <title>Enumerables</title>
+            <entry>
+              <p>The Enumerable mixin provides collection classes with several traversal and seraching methods, and with the ability to sort. The class must provide a method 'each', which yields successive members of the collection. If Enumberable#max,#min, or #sort is used, the objects in the collection must also implement a meaningful <=> operator, as these methods rely on an ordering between members of the collection.</p>
+              <p>Since arrays are very popular in Ruby programming, I'll discuss them a bit. Here are some array enumberator methods: collect/!, combination, cycle, delete_if, drop_while, each, each_index, find_index, index, keep_if, map/!, permutation, reject/!, repeated_combination, repeated_permutation, reverse_each, rindex, and select/!.</p>
+              <p>The map enumerator is particularly useful and one of my favorites.</p>
+              <p>map { |obj| block } -> array</p>
+              <p>Examples</p>
+              <div>(1..4).map { |i| i*i }      #=> [1, 4, 9, 16]</div>
+              <div>(1..4).collect { "cat"  }   #=> ["cat", "cat", "cat", "cat"]</div>
+              <p>Source: ruby-doc.org</p>
+            </entry>
+          </content>
+        </right-bar>
+      </bottom>
+    </wrapper>
+  </body>
+</html>
