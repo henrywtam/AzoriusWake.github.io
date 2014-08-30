@@ -59,6 +59,7 @@ socialBar{
 .shareButton{
   height: 16px;
   width: 16px;
+  margin-left: 4px;
 }
 .blogLinks{
   font-size: 14px;
