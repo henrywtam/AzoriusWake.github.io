@@ -1,94 +1,157 @@
 html{
-  width: 960px;
-  margin: auto;
-  font-family: courier;
-  color: black;
+  height:100%;
+  margin:0;
+  padding:0;
 }
 a{
   color: black;
   text-decoration: none;
 }
 body{
+  color:black;
+  background-color:#E8E8E8;
+  font-size:14px;
+  line-height:18px;
+  font-family:courier;
+  margin:0;
+  padding:0;
+}
+doc{
 
 }
-wrapper{
-
-}
-top{
-  height: 60px;
-  width: 940px;
+.top-bar{
+  text-align: center;
+  position: relative;
+  width: 100%;
   border-bottom: 2px solid black;
+  display: block;
+  background-color: white;
 }
-navBar{
-
+.top-container{
+  min-width:590px;
+  max-width:890px;
+  text-align:center;
+  width:auto;
+  margin:0 auto;
+  position:relative;
 }
-.navButton{
-  margin: 20px 80px;
-  font: 50px;
+.nav-bar{
+  /*border:1px solid red;*/
+  border-radius:6px;
+}
+.nav-button{
+  padding: 10px 27px;
+  margin: 0px 10px 0px 10px;
+  font-size: 24px;
   font-weight: bold;
   display: inline-block;
+  border-bottom: 6px solid white;
 }
-left-bar{
-  width: 230px;
+.nav-button:hover{
+  color:blue;
+  border-bottom-color:blue;
+}
+.page-container{
+  min-height:0;
+  min-width:590px;
+  max-width:890px;
+  text-align:center;
+  width:auto;
+  margin:0 auto;
+  position:relative;
+}
+.dashboard-left{
+  width: 234px;
   height: auto;
   float: left;
-  /*border: 1px dotted red;*/
   display: inline-block;
+  /*border:1px solid red;*/
+  border-radius:6px;
 }
-profile{
-  font-size: 14px;
+.profile-card{
+  font-size: 15px;
+  border:2px solid black;
+  border-radius:6px;
+  text-align:left;
+  width:220px;
+  margin: 20px 0px 0px 0px;
+  padding: 0px 0px 10px 12px;
+  background-color: white;
 }
-#profilePic{
-  height: 150px;
-  width: 150px;
-  border: 2px solid black;
-  margin: 20px 20px 10px 20px;
+.profile-pic{
+  height: 130px;
+  width: 130px;
+  margin: 20px 0px 0px 0px;
+  border-radius:6px;
 }
-profile div{
-  margin: 5px 5px 5px 20px;
-}
-socialBar{
-  font-size: 14px;
+.social-card{
+  font-size: 15px;
+  font-weight: bold;
   display: inline-block;
-  margin: 0px 25px;
+  border:2px solid black;
+  border-radius:6px;
+  text-align:left;
+  width:220px;
+  padding:20px 0px 10px 12px;
+  background-color: white;
 }
-#socialHeader{
+.social-header{
   font-size: 20px;
+  font-weight:normal;
   text-decoration: underline;
 }
-.shareButton{
-  height: 16px;
-  width: 16px;
+.share-button{
+  height: 18px;
+  width: 18px;
   margin-left: 4px;
+  margin-bottom: -6px;
+  padding: 3px 5px 3px 0px;
 }
-.blogLinks{
-  font-size: 14px;
-  margin-left: 6px;
+.share-button:hover{
+  color:orange;
 }
-#blogHeader{
-  font-size: 20px;
-  margin-left: 28px;
-  text-decoration: underline;
-}
-right-bar{
-  width: 600px;
+.main-content{
+  width: 640px;
   height: auto;
   float: right;
-  /*border: 1px dotted green;*/
   display: inline-block;
-  padding: 20px 45px;
+  /*border:1px solid red;*/
+  border-radius:6px;
+  padding: 20px 0px;
 }
-content{
-
-}
-title{
-  font-size: 20px;
+.content-header{
+  font-size: 22px;
   font-weight: bold;
-  margin: 0px 40px 10px 40px;
+  padding: 0px 20px;
+  padding: 10px 0px 10px 0px;
   text-align: center;
   display: block;
+  border-radius:5px 5px 0 0;
+  border:2px solid black;
+  background-color: white;
+
 }
-entry{
+.content{
+
+}
+.title{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  display: block;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  background-color: white;
+}
+.entry{
   font-size: 14px;
   margin: 0px 0px 0px 0px;
+  padding: 10px 30px 10px 30px;
+  text-align: left;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  background-color: white;
 }

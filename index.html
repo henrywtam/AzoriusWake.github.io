@@ -3,78 +3,65 @@
   <head>
     <title>Henry's Blog</title>
     <link rel="stylesheet" type="text/css" href="blog-posts/blog-stylesheet.css">
+    <link rel="stylesheet" href="blog-posts/font-awesome/css/font-awesome.min.css">
   </head>
   <body>
-    <wrapper>
-      <top>
-        <navBar>
-          <a href="blog-posts/AboutMe.html">
-            <div class="navButton">
-              About Me
-            </div>
-          </a>
-          <a href="blog-posts/blog-posts.html">
-            <div class="navButton">
-              Blog
-            </div>
-          </a>
-          <a href="blog-posts/Projects.html">
-            <div class="navButton">
-              Projects
-            </div>
-          </a>
-          <a href="blog-posts/Contact.html">
-            <div class="navButton">
-              Contact
-            </div>
-          </a>
-        <navBar>
-      </top>
-      <bottom>
-        <left-bar>
-          <profile>
-            <img id="profilePic" src="https://avatars3.githubusercontent.com/u/7097569?v=2&s=460" />
+    <doc>
+      <div class="top-bar">
+        <div class="top-container">
+          <div class="nav-bar">
+            <a href="blog-posts/AboutMe.html">
+              <div class="nav-button">
+                <i class="fa fa-home"></i>
+                Profile
+              </div>
+            </a>
+            <a href="blog-posts/blog-posts.html">
+              <div class="nav-button">
+                <i class="fa fa-pencil-square"></i>
+                My Blog
+              </div>
+            </a>
+            <a href="blog-posts/Projects.html">
+              <div class="nav-button">
+                <i class="fa fa-folder-open"></i>
+                Projects
+              </div>
+            </a>
+            <a href="blog-posts/Contact.html">
+              <div class="nav-button">
+                <i class="fa fa-envelope"></i>
+                Contact
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="page-container">
+        <div class="dashboard-left">
+          <div class="profile-card">
+            <img class="profile-pic" src="https://avatars3.githubusercontent.com/u/7097569?v=2&s=460" />
             <p></p>
             <div>Name: Henry Tam</div>
             <div>Occupation: DBC Student</div>
             <div>City: San Francisco</div>
-          </profile>
+          </div>
           <p></p>
-          <socialBar>
-            <div id="socialHeader">Social Links</div>
+          <div class="social-card">
+            <div class="social-header">Social Links</div>
             <p></p>
-            <div><a class="shareButton" href="https://www.linkedin.com/in/henrywtam"><img class="shareButton" src="http://buttonshut.com/links/linkedin.png"> LinkedIn</a></div>
-            <div><a class="shareButton" href="https://www.facebook.com/hahahenry"><img class="shareButton" src="http://buttonshut.com/links/facebook.png"> Facebook</a></div>
-            <div><a class="shareButton" href="https://plus.google.com/118226440472442077972/posts"><img class="shareButton" src="http://www.buttonshut.com/Google+-Buttons/Google+-Buttons-7-70-.png"> Google+</a></div>
-            <div><a class="shareButton" href="https://twitter.com/AzoriusWake"><img class="shareButton" src="http://buttonshut.com/links/twitter.png"> Twitter</a></div>
-            <div><a class="shareButton" href="https://github.com/AzoriusWake"><img class="shareButton" src="http://uxrepo.com/static/icon-sets/elusive/svg/github.svg"> GitHub</a></div>
-          </socialBar>
-          <p></p>
-          <blogLinks>
-            <div id="blogHeader">Blog Links</div>
-            <ul class="blogLinks">
-              <li><a href="blog-posts/t1-compare-websites.html">Compare Websites</a></li>
-              <li><a href="blog-posts/c1-chefs-kitchen.html">Kitchen vs Table</a></li>
-              <li><a href="blog-posts/DBCRAFP.html">DBCRAFP</a></li>
-              <li><a href="blog-posts/week3_technical.html">JavaScript</a></li>
-              <li><a href="blog-posts/week3_cultural.html">Think Style</a></li>
-              <li><a href="blog-posts/week4_technical.html">Enumerables</a></li>
-              <li><a href="blog-posts/week4_cultural.html">Issues in Tech</a></li>
-              <li><a href="blog-posts/week5_technical.html">Classes</a></li>
-              <li><a href="blog-posts/week5_cultural.html">Pair Programming + Feedback</a></li>
-              <li><a href="blog-posts/week6_technical.html">OOP vs FP</a></li>
-              <li><a href="blog-posts/week6_cultural.html">Stereotype Threat</a></li>
-              <li><a href="blog-posts/week7_technical.html">SQL vs NoSQL</a></li>
-              <li><a href="blog-posts/week7_cultural.html">Personal Values</a></li>
-            </ul>
-          </blogLinks>
-        </left-bar>
-        <right-bar>
-          <content>
-            <title>--->   Blog   <---</title>
-            <p></p>
-            <title>Personal Values</title>
-            <entry>
+            <div><a class="share-button" href="https://www.linkedin.com/in/henrywtam"><img class="share-button" src="http://buttonshut.com/links/linkedin.png"> LinkedIn</a></div>
+            <div><a class="share-button" href="https://www.facebook.com/hahahenry"><img class="share-button" src="http://buttonshut.com/links/facebook.png"> Facebook</a></div>
+            <div><a class="share-button" href="https://plus.google.com/118226440472442077972/posts"><img class="share-button" src="http://www.buttonshut.com/Google+-Buttons/Google+-Buttons-7-70-.png"> Google+</a></div>
+            <div><a class="share-button" href="https://twitter.com/AzoriusWake"><img class="share-button" src="http://buttonshut.com/links/twitter.png"> Twitter</a></div>
+            <div><a class="share-button" href="https://github.com/AzoriusWake"><img class="share-button" src="http://uxrepo.com/static/icon-sets/elusive/svg/github.svg"> GitHub</a></div>
+          </div>
+        </div>
+        <div class="main-content">
+          <div class="content-header">--->  My Blog  <---</div>
+          <div class="content">
+            <div class="title">Personal Values</div>
+            <div class="entry">
               <p>When you think of the times in your life where you've been the happiest, the proudest, or the most satisfied, which of the following values come to mind?</p>
               <p>Accomplishment Accountability Achievement Activism Adventure Affection Ambition Autonomy <b>Challenge</b> <b>Close relationships</b> Commitment <b>Community</b> Compassion Competence Competition Confidence Conformity <b>Control</b> Coolness under fire Cooperation Courage <b>Creativity</b> Credibility Decisiveness Economic security Effectiveness <b>Efficiency</b> Enthusiasm Environmentalism Excellence Excitement Fairness <b>Faith</b> Fame Free time Freedom <b>Friendships</b> <b>Growth</b> Having a family Health <b>Helping other people</b> Helping society <b>Honesty</b> Hospitality Independence Influence Inner harmony Insight Inspiration <b>Integrity</b> Intellectual status Introspection Justice Knowledge Leadership Location <b>Loyalty</b> <b>Meaningful work</b> Mentorship Merit Money Movement Music Nature Openness <b>Order</b> Patriotism Peace Persistance <b>Personal development</b> Physical challenge Pleasure Power and authority Privacy Public service Purity Quality Recognition Reputation Responsibility Romance Security Self-knowledge Self-reliance <b>Self-respect</b> Serenity Sophistication Spirituality Stability Status Tranquility <b>Truth</b> Vibrancy Volunteering Wealth Will-power <b>Wisdom</b></p>
               <p>One of the most important values to me is <b>integrity</b>. Integrity is described as:</p>
@@ -82,9 +69,9 @@
               <div>  2. the state of being whole and undivided.</div>
               <p>For all of the values I selected above (bold), I would agree/strongly agree that I try to live up to those values. I don't think I let stereotype threat, or most other social phenomenas, affect me negatively. I try my best to live a life full of integrity and in a manner that reflects my faith.</p>
               <p>Just this week, a close friend asked me for advice on how to proceed with an upcoming (serious) talk between him and a community leader. Rather than focusing on knowing exactly how to respond to the leader, I advised him to reaffirm what would be best for him. In these situations, I feel that doing what's best for you often is the same as doing what's best for the community. When you sacrifice too much or stretch yourself too thin, it creates an unsustainable burden (and often, disdain) that negatively affects all those around you. In general, my advice tends to focus on the individual, rather than the environment.</p>
-            </entry>
-            <title>SQL vs NoSQL</title>
-            <entry>
+            </div>
+            <div class="title">SQL vs NoSQL</div>
+            <div class="entry">
               <ul>
                 <li>SQL databases are primarily called Relational Databases (RDBMS), whereas NoSQL database are primarily called as non-relational or distributed databases.</li>
                 <li>SQL databases are table based databases whereas NoSQL databases are document based, key-value pairs, graph databases or wide-column stores. This means that SQL databases represent data in form of tables which consists of n number of rows of data whereas NoSQL databases do not have standard schema definitions which it needs to adhere to.</li>
@@ -100,25 +87,25 @@
                 <li>For DB types, on a high-level, we can classify SQL databases as either open-source or close-sourced from commercial vendors. NoSQL databases can be classified on the basis of way of storing data as graph databases, key-value store databases, document store databases, column store database and XML databases.</li>
               </ul>
               <p>Source: http://www.thegeekstuff.com/2014/01/sql-vs-nosql-db/</p>
-            </entry>
-            <title>Stereotype Threat</title>
-            <entry>
+            </div>
+            <div class="title">Stereotype Threat</div>
+            <div class="entry">
               <p>Stereotype threat is a situational predicament in which people are or feel themselves to be at risk of confirming negative stereotypes about their social group. Since its introduction into the academic literature, stereotype threat has become one of the most widely studied topics in the field of social psychology. Stereotype threat has been shown to reduce the performance of individuals who belong to negatively stereotyped groups. If negative stereotypes are present regarding a specific group, group members are likely to become anxious about their performance, which may hinder their ability to perform at their maximum level. For example, stereotype threat can lower the intellectual performance of African-Americans taking the SAT reasoning test used for college entrance in the United States, due to the stereotype that African-Americans are less intelligent than other groups. Importantly, the individual does not need to subscribe to the stereotype for it to be activated. Moreover, the specific mechanism through which anxiety (induced by the activation of the stereotype) decreases performance is by depleting working memory (especially the phonological aspects of the working memory system).</p>
               <p>As for academic performance and belonging to the Asian ethnicity, I "should" be positively influenced. Thinking back, I'm just not too sure. I know I'm heavily influenced by expectations, but I don't know if everyone will be affected the same way and in the same impact level as I am. For example, if I expect to have pizza for dinner (going a different direction), my expectation buildup will make me heavily desire a burger for dinner. So even if a pizza, under most circumstances, will grant me equal-level happiness, I will be disappointed at a pizza dinner. Likewise, my expectations as an Asian American will affect my performance in every arena, as well as coming from a lower-middle income family, being a gamer, going to so-and-so school, etc. As an Asian, I am typically expected more of in the academic world, but expected less in the athletic world. With those expectations, do I perform above or below expectations? I think that is the bigger issue.</p>
               <p>Because I am expected to have higher standards in academics, I may study harder to ensure those standards are met. Or...I may not, because I don't want to be part of the stereotype. I think that decision/habit depends more on the individual. In sports, maybe I will try harder so I won't perpetuate the negative outlook of my background. Or, maybe it will give me reason to try less? There are a lot of possibilities and factors that play into it.</p>
               <p>In the end, stereotype threat or not, I don't think these used should be excuses for poorer performance for any group of people. Every person is unique. Every person is influenced (positively and negatively) by all different kinds of factors. It's what we do with our situation that should lead to the end result of our product.</p>
               <p>Source: http://en.wikipedia.org/wiki/Stereotype_threat</p>
-            </entry>
-            <title>Pair Programming + Feedback</title>
-            <entry>
+            </div>
+            <div class="title">Pair Programming + Feedback</div>
+            <div class="entry">
               <p>Pair programming is an agile software development technique in which two programmers work together at one workstation. One, the driver, writes code while the other, the observer, pointer or navigator, reviews each line of code as it is typed in. The two programmers switch roles frequently.</p>
               <p>While reviewing, the observer also considers the "strategic" direction of the work, coming up with ideas for improvements and likely future problems to address. This frees the driver to focus all of his or her attention on the "tactical" aspects of completing the current task, using the observer as a safety net and guide.</p>
               <p>My limited experience with pair programming at DBC has been incredibly beneficial and englightening. While I initially thought having a partner would slow down my work, I found it to be quite the opposite. Not only have I been completing those challenges more quickly, the final work is much more complete. I've learned so much from my peers, and highly encourage pair programming!</p>
               <p>I'm also a huge fan of giving/receiving feedback. As a fairly critical person, I tend to notice the flaws in people. And as someone who doesn't like confrontation, I often won't bring it up to them, even if I know it will help them a lot. Having constant (anonymous) feedback allows me to give my thoughts to others that I think can improve their abilities.</p>
               <p>Also, I am constantly trying to improve myself so I always welcome feedback. No one is perfect, especially me, so I want to hear as much as I can from others to make me a better everything. I'll probably get a little hurt, but I  get over it quickly, and really try to learn/apply the feedback/criticisms, rebukes, etc. from others. Life is all about learning and growing!</p>
-            </entry>
-            <title>OOP vs FP</title>
-            <entry>
+            </div>
+            <div class="title">OOP vs FP</div>
+            <div class="entry">
               <p>Object-oriented programming (OOP) is a programming paradigm that represents the concept of "objects" that have data fields (attributes that describe the object) and associated procedures known as methods. Objects, which are usually instances of classes, are used to interact with one another to design applications and computer programs. C++, Objective-C, Smalltalk, Delphi, Java, Javascript, C#, Perl, Python, Ruby and PHP are examples of object-oriented programming languages.</p>
               <p>On the other hand, Functional programming (FP) is a programming paradigm that treats computation as the evaluation of mathematical functions and avoids changing state and mutable data. It is a declarative programming paradigm, which means programming is done with expressions. In functional code, the output value of a function depends only on the arguments that are input to the function, so calling a function f twice with the same value for an argument x will produce the same result f(x) both times.</p>
               <p>The biggest difference is that Imperative programming (which OOP is a type of) is about Control flow while Functional programming is about Data flow. Another way to say it is that functional programming only uses expressions while in imperative programming, both expressions and statements are used. For example, in imperative programming, variables and loops are common when handling state. In functional programming, the state is handled via parameter passing, which avoids side-effects and assignments.</p>
@@ -126,9 +113,9 @@
               <div>Source: http://en.wikipedia.org/wiki/Functional_programming</div>
               <div>Source: http://programmers.stackexchange.com/questions/9730/functional-programming-vs-oop</div>
               <p></p>
-            </entry>
-            <title>Classes</title>
-            <entry>
+            </div>
+            <div class="title">Classes</div>
+            <div class="entry">
               <p>The code you write should have the following qualities:</p>
               <ul>
                 <li><div>Transparent: The consequences of change should be obvious in the code that is changing in distant code that relies upon it.</div></li>
@@ -140,16 +127,16 @@
               <p>In a class-based OO language like Ruby, methods are defined in classes. The classes you create will affect how you think about your application forever. They define a virtual world, one that constrains the imagination of everyone downstream. You are constructing a box that may be difficult to think outside of.</p>
               <p>Applications that are easy to change consist of classes that are easy to reuse. Reusable classes are pluggable units of well-defined behavior that have few entanglements. Thus, a class should do the smallest possible useful thing; that is, it should have a single responsibility.</p>
               <p>Source: Practical Object-Oriented Design in Ruby</p>
-            </entry>
-            <title>Issues in Tech</title>
-            <entry>
+            </div>
+            <div class="title">Issues in Tech</div>
+            <div class="entry">
               <p>If you keep up with tech-related news, you'll soon start becoming unfazed by massive amounts of cash. WhatApp was purchased for $19B, Beats by Dre for $3B, Twitch for $1B. Snapchat is valued at $10B and companies are constantly getting $10M+ funding in the Series A, B, C, and more rounds. You lose touch with the value of money and thus goods.</p>
               <p>While it's great that these brilliant people are providing so many people with a better experience, I would prefer to have those same minds solve larger issues, like poverty, energy efficiency, education, medicine, etc. How badly does the world need another messaging app, streaming service, headphones, or ad network? Not so much in my opinion. That's why I was very pleased to read this TechCrunch article:</p>
               <a href = "http://techcrunch.com/2014/08/19/new-at-y-combinator-startups-solving-huge-problems/"> --> New at Y Combinator: Startups Solving Huge Problems <-- </a>
               <p>Y Combinator is one of the most prestigious startup incubators so it's incredible to see a shift in the type of companies in it.There are companies building nuclear reactors, creating vaccines for HIV and AIDs, and quantum computing. These companies can really push the bounds for both helping advance science, technology, and society!</p>
-            </entry>
-            <title>Enumerables</title>
-            <entry>
+            </div>
+            <div class="title">Enumerables</div>
+            <div class="entry">
               <p>The Enumerable mixin provides collection classes with several traversal and seraching methods, and with the ability to sort. The class must provide a method 'each', which yields successive members of the collection. If Enumberable#max,#min, or #sort is used, the objects in the collection must also implement a meaningful <=> operator, as these methods rely on an ordering between members of the collection.</p>
               <p>Since arrays are very popular in Ruby programming, I'll discuss them a bit. Here are some array enumberator methods: collect/!, combination, cycle, delete_if, drop_while, each, each_index, find_index, index, keep_if, map/!, permutation, reject/!, repeated_combination, repeated_permutation, reverse_each, rindex, and select/!.</p>
               <p>The map enumerator is particularly useful and one of my favorites.</p>
@@ -158,48 +145,48 @@
               <div>(1..4).map { |i| i*i }      #=> [1, 4, 9, 16]</div>
               <div>(1..4).collect { "cat"  }   #=> ["cat", "cat", "cat", "cat"]</div>
               <p>Source: ruby-doc.org</p>
-            </entry>
-            <title>Gregoric Thinking Style and Fixed vs. Growth Mindset</title>
-            <entry>
+            </div>
+            <div class="title">Gregoric Thinking Style and Fixed vs. Growth Mindset</div>
+            <div class="entry">
               <p>According to this Gregoric Thinking Style test I have taken, I am mainly a Concrete Random and Abstract Sequential thinker.</p>
               <p>As a Concrete Random thinker, I like experimenting to find answers, take risks, use intuition, and solve problems independently. I learn best when able to use trial-and-error approaches, compete with others, and be given the opportunity to work through problems themselves. These are difficult for me: restrictions and limitations, formal reports, routines, re-doing anything once it's done, keeping detailed records, showing how I got an answer, choosing only one answer, and having no option.</p>
               <p>As an Abstract Sequential thinker, I like to be heard, analyze situations before making a decision, and applying logic in solving or finding solutions to problems. I learn best when I have access to experts or references, am placed in stimulating environments, and am able to work alone. These are difficult for me: being forced to work with those of differing views, too little time to deal with a subject thoroughly, repeating the same tasks over and over, have lots of specific rules and regulations, "sentimental" thinking, expressing my emotion, being diplomatic when convincing others, and not monopolozing a conversation.</p>
               <p>After having gone through almost 3 weeks at DBC, I have seen how my two thinking styles have affected my learning. While the concrete random has mostly been positive for learning HTML/CSS/JS, my abstract sequential has made a few things more difficult. Since the pace at DBC is so fast-paced, I am forced to move on from languages/topics/challenges faster than I would like, and not have the opportunity to completely learn them inside-out. Also, I often ask experts when I am uncertain, and in solo challenges, I am unable to ask friends (other engineers) for help. In order to combat this, I am forcing myself to get adjusted with DBC's pace and to trust in myself/cohorts/guides/system.</p>
               <p>I really enjoyed learning Carol Dweck's breakdown of a Fixed vs. Growth Mindset. While I would subscribe more to the growth mindset, I definitely see myself as a fixed mindset in certain areas and at certain times. I also attribute some of those limitations to my desire for comfort. In many instances, I will avoid challenges and give up easily because I'm unwilling to be uncomfortable. That's why "being comfortable with being uncomfortable" is one of my 2014 new year's resolutions, and DBC is definitely a part of that!</p>
-            </entry>
-            <title>Why is JavaScript popular in web development? What are the great things about JavaScript? What are its limitations?</title>
-            <entry>
+            </div>
+            <div class="title">Why is JavaScript popular in web development? What are the great things about JavaScript? What are its limitations?</div>
+            <div class="entry">
               <p>JavaScript is the most popular client-side language for all browsers, so it is everywhere in web development.</p>
               <p>There are plenty of reasons that make JavaScript so popular. First, it is easy to learn, especially coming from a programming background. Second, there is a large open source community with built-out libraries for everything you can think of. Lastly, it is lightweight and fast, and works great with Java and C++.</p>
               <p>While JavaScript is a great language, it still does have its limitations. There are concerns regarding security issues. Also, there can be rendering variations across different platforms and browsers, which makes testing difficult.</p>
-            </entry>
-            <title>What are the differences between relative, absolute, and fixed positioning? #DBCRAFP</title>
-            <entry>
+            </div>
+            <div class="title">What are the differences between relative, absolute, and fixed positioning? #DBCRAFP</div>
+            <div class="entry">
               <p>First off, all elements start out as static, meaning they don't have any default values but flow naturally onto a page.</p>
               <p>With relative positioning, you add in positioning attributes and that would only affect the element/s relative to where it would be if it was static. So if you type in left: 10px, the element would position itself 10px to the left "relative" to where it would have been without that attribute (static).</p>
               <p>With absolute positioning, you are able to place an element exactly anywhere on the page. You give it top, right, bottom, left position attributes, and the element will take that position of the page. These values will be relative to the next parent element with relative or absolute positioning.</p>
               <p>Lastly, with fixed positioning, the element is positioned relative to the viewport, or the browser window itself. The viewport doesn't change when the window moves, so even if a user scrolls the page, the element will stay in position.</p>
-            </entry>
+            </div>
             <p></p>
-            <title>Kitchen vs. Table</title>
-            <entry>
+            <div class="title">Kitchen vs. Table</div>
+            <div class="entry">
               <p>Having always been a conservative and risk-averse person, I rarely partake in activities that I am uncomfortable with. I don't like being uncomfortable. I don't like being inadequate. That's why my new year's goal (yes, cheesy) was "being comfortable with being uncomfortable."</p>
               <p>Quitting my job and joining Dev Bootcamp is probably the biggest risk I am ever about to take. I can choose to continue my career in digital advertising, but I know I'll never be that happy in doing so. Programming has always been career that resonated well with my personality and thinking style.</p>
               <p>Even moreso, I want to make a positive impact on the world through creation of useful products, particularly in developing countries. I want to create web and mobile apps, which can reach those people and communities.</p>
-            </entry>
+            </div>
             <p></p>
-            <title>My 3 Favorite Sites</title>
-            <entry>
+            <div class="title">My 3 Favorite Sites</div>
+            <div class="entry">
               <a href="http://www.twitter.com">Twitter</a>
               <p>For the amount of content on the page, the website is very, very attractive. All of the actions that I would want to do (like tweeting, editing profile, checking notifications) are immediately there. If I want to scroll through my followee's content, there is a wide enough space devoted to that in which I can continue scrolling down forever. The design is very appealing and blue is my favorite color. :)</p>
               <a href="http://www.google.com/calendar/">Google Calendar</a>
               <p>Google has made a very useful and attractive calendar tool in Google Calendar. You have most of the tools you need to create appointments, edit your view, look at other calendars, etc. In design, it is minimilistic, but elegant. Compared to Outlook, Google's calendar is miles ahead in design.</p>
               <a href="http://www.9gag.com">9GAG</a>
               <p>While I'm not too impressed with the aesthetics of the site, especially the large amount of space given to ads, the user experience is awesome. The majority of 9GAG's content are humorous and quick to consume, and they have tailored their website to be incredibly quick, easy, and efficient. In the time it would take to consume 3 posts on Reddit, I would have already viewed 20 on 9GAG. It's the perfect site for someone with ADD to look for a few quick laughs.</p>
-            </entry>
-          </content>
-        </right-bar>
-      </bottom>
-    </wrapper>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

@@ -1,0 +1,111 @@
+html{
+  height:100%;
+}
+body{
+  color:black;
+  background-color:white;
+  font-size:14px;
+  line-height:18px;
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif
+}
+#doc{
+
+}
+.top-bar{
+  border-bottom:1px solid rgba(0,0,0,0.05);
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  display:block;
+}
+.top-container{
+  min-width:590px;
+  max-width:890px;
+  text-align:center;
+  width:auto;
+  margin:0 auto;
+  position:relative;
+}
+.navigation{
+  display:inline-block;
+}
+.nav{
+  margin-right:12px;
+  text-align:left;
+  height:46px;
+}
+.nav > li{
+  color:#66757f;
+  position:relative;
+}
+#page-outer{
+  height:100%;
+  display:block;
+}
+#page-container{
+  min-height:0;
+  min-width:590px;
+  max-width:890px;
+  text-align:center;
+  width:auto;
+  margin:0 auto;
+  position:relative;
+}
+.dashboard-left{
+  float:left;
+  width:290px;
+  display:block;
+}
+#profile-card{
+  background-color:white;
+  border:1px solid #e1e8ed;
+  border-radius:6px;
+  line-height:16px;
+  position:relative;
+  margin-bottom:10px;
+  display:block;
+}
+#profile-pic{
+  height: 150px;
+  width: 150px;
+  border: 2px solid black;
+  margin: 20px 20px 10px 20px;
+}
+#social-card{
+  background-color:white;
+  border:0;
+  border-radius:6px;
+  line-height:16px;
+  position:relative;
+  margin-bottom:10px;
+  display:block;
+}
+#social-title{
+  font-size: 20px;
+  text-decoration: underline;
+}
+.share-button{
+  height: 16px;
+  width: 16px;
+  margin-left: 4px;
+}
+.main-content{
+  float:right;
+  width:590px;
+  border-radius:6px;
+  display:block;
+}
+.content-header{
+  border-bottom-width:0;
+  min-height:20px;
+  padding:12px;
+  background-color:white;
+  border-bottom:1px solid #e1e8ed;
+  border-radius:5px 5px 0 0;
+}
+.content{
+  position:relative;
+  padding:9px 12px;
+  display:block;
+}
