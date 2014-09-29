@@ -2,8 +2,8 @@
 <html>
   <head>
     <title>Henry's Blog</title>
-    <link rel="stylesheet" type="text/css" href="WebsiteCSS.css">
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../WebsiteCSS.css">
+    <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
   </head>
   <body>
     <doc>
@@ -66,30 +66,13 @@
           </div>
         </div>
         <div class="main-content">
-          <div class="content-header">--->  My Blog  <---</div>
+          <div class="content-header">--->  Blog  <---</div>
           <div class="content">
-            <div class="title">September</div>
+            <div class="title">Blog HTML/CSS Update</div>
             <div class="entry">
-              <div><a href="blog-posts/week8_html_challenge.html">Blog HTML/CSS Update</a></div>
-              <div><a href="blog-posts/week8_cultural.html">Dealing with Conflict</a></div>
-              <div><a href="blog-posts/week8_technical.html">What is Rails?</a></div>
-              <div><a href="blog-posts/week7_cultural.html">Personal Values</a></div>
-              <div><a href="blog-posts/week7_technical.html">SQL vs NoSQL</a></div>
-              <div><a href="blog-posts/week6_cultural.html">Stereotype Threat</a></div>
-              <div><a href="blog-posts/week6_technical.html">OOP vs FP</a></div>
-              <div><a href="blog-posts/week5_cultural.html">Pair Programming + Feedback</a></div>
-              <div><a href="blog-posts/week5_technical.html">Classes</a></div>
-            </div>
-            <div class="title">August</div>
-
-            <div class="entry">
-              <div><a href="blog-posts/week4_cultural.html">Issues in Tech</a></div>
-              <div><a href="blog-posts/week4_technical.html">Enumerables</a></div>
-              <div><a href="blog-posts/week3_cultural.html">Gregoric Thinking Style and Fixed vs. Growth Mindset</a></div>
-              <div><a href="blog-posts/week3_technical.html">Why is JavaScript popular in web development? What are the great things about JavaScript? What are its limitations?</a></div>
-              <div><a href="blog-posts/DBCRAFP.html">DBCRAFP</a></div>
-              <div><a href="blog-posts/c1-chefs-kitchen.html">Kitchen vs. Table</a></div>
-              <div><a href="blog-posts/t1-compare-websites.html">My 3 Favorite Sites</a></div>
+              <p>After spending about 15 hours updating my blog, I'm somewhat pleased with how it all looks. It's definitely a work in progress, but I have become a lot more comfortable with HTML and CSS through the process. Whereas before I was uncomfortable using HTML/CSS and was almost constantly frustrated with not getting the result I wanted/expected, I am finally starting to understand how it all works. It's not as random as I initially thought, and there's definitely a method to the madness.</p>
+              <p>After my initial update, I asked a good friend of mine for his thoughts and advice. He gave me some great suggestions so I made changes afterwards. We bounced back and forth a few more times, and I'm set on this layout this week. I plan to spend more time on the blog this week as well to try out some other things. I got a lot of my inspiration from twitter, since it's a website I frequently visit and love their UI. I also visited my church's website (http://realitysf.com/) and love the UI there as well, and may try to work some features there into my website.</p>
+              <p>This week has been quite eye-opening in terms of my confidence/happiness in my career switch. Not only did I start a side-project with a cohort using Ruby and enjoying that, I also really enjoyed figuring out HTML/CSS in updating my blog. Such a complete switch from hating HTML/CSS to somewhat liking it! It was something where I easily got lost in and before I knew it, I had sunk 3 hours revising my website. Thanks DBC for providing the opp to make the career switch into the field I belong in!</p>
             </div>
           </div>
         </div>
