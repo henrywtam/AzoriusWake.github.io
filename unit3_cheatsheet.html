@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Javascript Objects</title>
+    <link rel="stylesheet" type="text/css" href="unit3_cheatsheet_style.css" charset="utf-8"/>
+  </head>
+  <body>
+    <header>
+    </header>
+    <nav>
+    </nav>
+    <section>
+        <div>
+        <h1>What are Javascript Objects?</h1>
+        <div>Objects are just data, with added properties and methods.</div>
+        <div>Object Properties and Methods</div>
+        <div>Properties are values associated with objects.</div>
+        <div>Methods are actions objects can perform.</div>
+        <br>
+        <table>
+          <tr>
+            <th>Object</th>
+            <th>Properties</th>
+            <th>Methods</th>
+          </tr>
+          <tr>
+            <td rowspan="4">Person</td>
+            <td>person.name</td>
+            <td>person.walk()</td>
+          </tr>
+          <tr>
+            <td>person.height</td>
+            <td>person.eat()</td>
+          </tr>
+          <tr>
+            <td>person.weight</td>
+            <td>person.talk()</td>
+          </tr>
+          <tr>
+            <td>person.country</td>
+            <td>person.drink()</td>
+          </tr>
+        </table>
+        <br>
+        <div>All persons have the same properties, but the property values differ from person to person.</div>
+        <div>All persons have the same methods, but they are performed at different times.</div>
+
+        <div>In JavaScript, objects are data (variables), with properties and methods.</div>
+        <div>Almost "everything" in JavaScript are treated as objects. Dates, Arrays, Strings, Functions...</div>
+
+        <h1>Object Creation</h1>
+        In JavaScript you can also create your own objects.
+
+        For example:
+        <h2>1. By object literal:</h2>
+        <pre>
+      var person = {name:"Daniel", height:"5'4\'", weight:120, country:"USA"};</pre>
+
+        <h2>2. By javascript keyword new:</h2>
+        <pre>
+      var person = new Object();
+        person.name = "Daniel";
+        person.height = "5'4\"";
+        person.weight = 120;
+        person.country = "USA";
+</pre>
+        <h2>3. By constructor:</h2>
+        <div>The examples above are limited in many situations. They only create a single object. </div>
+          <div>Sometimes we like to have an "object type" that can be used to create many objects of one type. </div>
+            <div>The standard way to create an "object type" is to use an object.</div>
+<pre>
+      function person(name, height, weight, country) {
+        this.name = name;
+        this.height = height;
+        this.weight = weight;
+        this.country = country;
+      }
+
+      var dan = new person("Daniel", "5'4\"", 120, "USA!!!");
+</pre>
+<!--         var person = {
+          name: "Daniel",
+          height: "5'4\"",
+          weight: 120,
+          country: "USA!!!"
+        }; -->
+
+<h1>Adding a new property</h1>
+You can add a new property to an existing object. For example:
+<pre>
+    dan.location = "San Francisco";
+</pre>
+<h1>Adding a new method</h1>
+You can add a new method to an existing object. For example:
+<pre>
+    dan.new_method = function (arg1, arg2) {
+      code goes here;
+    }
+</pre>
+<h1>Accessing object properties</h1>
+You can access existing properties of an object in 2 ways, like this:
+<pre>
+    dan.name;
+    dan["name"];
+</pre>
+<h1>Accessing object methods</h1>
+You can call an object method like this:
+<pre>
+    dan.walk(50);
+    dan.drink("milk");
+</pre>
+
+        </div>
+    </section>
+    <footer>
+    </footer>
+  </body>
+</html>
